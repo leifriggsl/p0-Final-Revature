@@ -155,3 +155,22 @@ INFO: Unsupported notification method: $/setTrace
 [0m2022.01.09 08:21:23 INFO  Closing debug server tcp://0.0.0.0:56724[0m
 Jan 09, 2022 8:21:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+[0m2022.01.09 08:23:39 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 08:23:41 INFO  Deduplicating compilation of new-project-0 from bsp client 'Metals 0.10.9' (since 4m 17.247s)[0m
+[0m2022.01.09 08:23:41 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 08:30:23 ERROR code navigation does not work for the file 'C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala' because the SemanticDB file 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\META-INF\semanticdb\src\main\scala\pj0.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2022.01.09 08:34:46 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 08:36:16 ERROR code navigation does not work for the file 'C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala' because the SemanticDB file 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\META-INF\semanticdb\src\main\scala\pj0.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2022.01.09 08:36:56 ERROR code navigation does not work for the file 'C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala' because the SemanticDB file 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\META-INF\semanticdb\src\main\scala\pj0.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2022.01.09 08:36:57 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 08:38:54 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 08:41:20 ERROR code navigation does not work for the file 'C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala' because the SemanticDB file 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\META-INF\semanticdb\src\main\scala\pj0.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2022.01.09 08:41:20 ERROR code navigation does not work for the file 'C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala' because the SemanticDB file 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\META-INF\semanticdb\src\main\scala\pj0.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2022.01.09 08:41:21 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 08:41:20 ERROR code navigation does not work for the file 'C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala' because the build target new-project-0 is being compiled. Wait until compilation is finished and try again.[0m

@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:44:19: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m              n=n.toInt[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:45:25: not found: value MAX[0m
+[0m[[0m[31merror[0m] [0m[0m                var m = MAX(1, n)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
