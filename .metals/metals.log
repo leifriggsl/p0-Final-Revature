@@ -1,0 +1,157 @@
+[0m2022.01.09 08:17:03 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\leifr\Desktop\new project 0' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.09 08:17:03 INFO  time: initialize in 0.31s[0m
+[0m2022.01.09 08:17:04 WARN  Build server is not auto-connectable.[0m
+[0m2022.01.09 08:17:04 WARN  no build target for: C:\Users\leifr\Desktop\new project 0\build.sbt[0m
+[0m2022.01.09 08:17:06 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.09 08:17:07 INFO  time: code lens generation in 3.23s[0m
+[0m2022.01.09 08:17:50 WARN  no build target for: C:\Users\leifr\Desktop\new project 0\src\main\scala\P0.scala[0m
+Jan 09, 2022 8:18:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 90 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1554)
+	... 16 more
+
+[0m2022.01.09 08:19:10 INFO  running 'C:\Users\leifr\.jabba\jdk\adopt@1.8.0-292\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.5.4 -jar C:\Users\leifr\AppData\Local\Temp\metals1472313584187416498\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2022.01.09 08:19:14 INFO  [info] Updated file C:\Users\leifr\Desktop\new project 0\project\build.properties: set sbt.version to 1.5.4[0m
+[0m2022.01.09 08:19:14 INFO  [info] welcome to sbt 1.5.4 (AdoptOpenJDK Java 1.8.0_292)[0m
+[0m2022.01.09 08:19:17 INFO  [info] loading settings for project new-project-0-build-build from metals.sbt ...[0m
+[0m2022.01.09 08:19:17 INFO  [info] loading project definition from C:\Users\leifr\Desktop\new project 0\project\project[0m
+[0m2022.01.09 08:19:20 INFO  [info] loading settings for project new-project-0-build from metals.sbt ...[0m
+[0m2022.01.09 08:19:20 INFO  [info] loading project definition from C:\Users\leifr\Desktop\new project 0\project[0m
+[0m2022.01.09 08:19:23 INFO  [success] Generated .bloop\new-project-0-build.json[0m
+[0m2022.01.09 08:19:23 INFO  [success] Total time: 2 s, completed Jan 9, 2022 8:19:23 AM[0m
+[0m2022.01.09 08:19:23 INFO  [info] loading settings for project new-project-0 from build.sbt ...[0m
+[0m2022.01.09 08:19:23 INFO  [info] set current project to new-project-0 (in build file:/C:/Users/leifr/Desktop/new%20project%200/)[0m
+[0m2022.01.09 08:19:23 INFO  [success] Generated .bloop\new-project-0-test.json[0m
+[0m2022.01.09 08:19:23 INFO  [success] Generated .bloop\new-project-0.json[0m
+[0m2022.01.09 08:19:23 INFO  [success] Total time: 0 s, completed Jan 9, 2022 8:19:23 AM[0m
+[0m2022.01.09 08:19:23 INFO  time: ran 'sbt bloopInstall' in 13s[0m
+[0m2022.01.09 08:19:23 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32817'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\leifr\Desktop\new project 0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\leifr\Desktop\new project 0\.bloop\new-project-0-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\leifr\Desktop\new project 0\.bloop\new-project-0.json'
+[0m[32m[D][0m Missing analysis file for project 'new-project-0-test'
+[0m[32m[D][0m Missing analysis file for project 'new-project-0'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32817...
+The server is listening for incoming connections at tcp://127.0.0.1:32817...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.09 08:19:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.09 08:19:23 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 44956'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:44956...
+The server is listening for incoming connections at tcp://127.0.0.1:44956...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.09 08:19:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.09 08:19:24 INFO  time: Connected to build server in 0.83s[0m
+[0m2022.01.09 08:19:24 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.09 08:19:27 INFO  time: indexed workspace in 3.09s[0m
+[0m2022.01.09 08:19:28 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.09 08:19:28 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2022.01.09 08:19:31 INFO  time: code lens generation in 1.71s[0m
+[0m2022.01.09 08:19:37 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.09 08:19:42 INFO  time: compiled new-project-0 in 4.81s[0m
+Jan 09, 2022 8:19:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 09, 2022 8:19:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: CompileResult.  C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+
+java.util.concurrent.CompletionException: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: CompileResult.  C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at scala.concurrent.BatchingExecutor$Batch.processBatch$1(BatchingExecutor.scala:67)
+	at scala.concurrent.BatchingExecutor$Batch.$anonfun$run$1(BatchingExecutor.scala:82)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at scala.concurrent.BatchingExecutor$Batch.run(BatchingExecutor.scala:59)
+	at scala.concurrent.Future$InternalCallbackExecutor$.unbatchedExecute(Future.scala:875)
+	at scala.concurrent.BatchingExecutor.execute(BatchingExecutor.scala:110)
+	at scala.concurrent.BatchingExecutor.execute$(BatchingExecutor.scala:107)
+	at scala.concurrent.Future$InternalCallbackExecutor$.execute(Future.scala:873)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: scala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: CompileResult.  C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:252)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:244)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	... 4 more
+
+Jan 09, 2022 8:20:18 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2022.01.09 08:20:20 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 08:20:22 INFO  skipping build import with status 'Requested'[0m
+[0m2022.01.09 08:20:27 INFO  Deduplicating compilation of new-project-0 from bsp client 'Metals 0.10.9' (since 1m 3.546s)[0m
+[0m2022.01.09 08:20:27 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 08:20:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-server.trace.json[0m
+[0m2022.01.09 08:20:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\dap-client.trace.json[0m
+[0m2022.01.09 08:20:31 INFO  Starting debug proxy for [pj0][0m
+[0m2022.01.09 08:20:31 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56727 .[0m
+[0m2022.01.09 08:20:31 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2022.01.09 08:21:23 INFO  Canceling debug proxy for [pj0][0m
+[0m2022.01.09 08:21:23 INFO  Closing debug server tcp://0.0.0.0:56724[0m
+Jan 09, 2022 8:21:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

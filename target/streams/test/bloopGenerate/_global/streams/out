@@ -1,0 +1,4 @@
+[debug] [new-project-0-test] Classpath dependencies List()
+[debug] [new-project-0-test] Dependencies from configurations List(new-project-0)
+[debug] Bloop wrote the configuration of project 'new-project-0-test' to 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0-test.json'
+[success] Generated .bloop\new-project-0-test.json
