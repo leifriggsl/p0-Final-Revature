@@ -1,9 +1,79 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:44:19: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
-[0m[[0m[31merror[0m] [0m[0m required: String[0m
-[0m[[0m[31merror[0m] [0m[0m              n=n.toInt[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:97:32: not found: value connection[0m
+[0m[[0m[31merror[0m] [0m[0m              val statement2 = connection.createStatement()[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:100:14: not found: value log[0m
+[0m[[0m[31merror[0m] [0m[0m             log.write(Calendar.getInstance().getTimeInMillis  + " -  Executing 'INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+");' \n")[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:100:158: not found: value n[0m
+[0m[[0m[31merror[0m] [0m[0m             log.write(Calendar.getInstance().getTimeInMillis  + " -  Executing 'INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+");' \n")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:100:165: not found: value inputName[0m
+[0m[[0m[31merror[0m] [0m[0m             log.write(Calendar.getInstance().getTimeInMillis  + " -  Executing 'INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+");' \n")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:100:180: not found: value inputPeriod[0m
+[0m[[0m[31merror[0m] [0m[0m             log.write(Calendar.getInstance().getTimeInMillis  + " -  Executing 'INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+");' \n")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:100:197: not found: value inputScore[0m
+[0m[[0m[31merror[0m] [0m[0m             log.write(Calendar.getInstance().getTimeInMillis  + " -  Executing 'INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+");' \n")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:105:19: not found: value seeSpreadSheet[0m
+[0m[[0m[31merror[0m] [0m[0m              if (seeSpreadSheet.contains('y')==true) {[0m
 [0m[[0m[31merror[0m] [0m[0m                  ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:45:25: not found: value MAX[0m
-[0m[[0m[31merror[0m] [0m[0m                var m = MAX(1, n)[0m
-[0m[[0m[31merror[0m] [0m[0m                        ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:106:31: not found: value driver[0m
+[0m[[0m[31merror[0m] [0m[0m                Class.forName(driver)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:107:15: not found: value connection[0m
+[0m[[0m[31merror[0m] [0m[0m              connection = DriverManager.getConnection(url, username, password)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:108:33: not found: value connection[0m
+[0m[[0m[31merror[0m] [0m[0m                val statement = connection.createStatement()[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:110:17: not found: value log[0m
+[0m[[0m[31merror[0m] [0m[0m                log.write(Calendar.getInstance().getTimeInMillis + " - Excecuting 'SELECT * FROM Gradesheet;' \n")[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:122:17: not found: value mistake[0m
+[0m[[0m[31merror[0m] [0m[0m            if (mistake.contains('b')==true)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:123:30: not found: value driver[0m
+[0m[[0m[31merror[0m] [0m[0m              {Class.forName(driver)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:124:15: not found: value connection[0m
+[0m[[0m[31merror[0m] [0m[0m              connection = DriverManager.getConnection(url, username, password)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:125:34: not found: value connection[0m
+[0m[[0m[31merror[0m] [0m[0m                val statement3 = connection.createStatement()[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:127:18: not found: value log[0m
+[0m[[0m[31merror[0m] [0m[0m                 log.write(Calendar.getInstance().getTimeInMillis + " - Excecuting 'DELETE FROM Gradesheet WHERE StudentNumber = "+n+"' \n")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:127:132: not found: value n[0m
+[0m[[0m[31merror[0m] [0m[0m                 log.write(Calendar.getInstance().getTimeInMillis + " - Excecuting 'DELETE FROM Gradesheet WHERE StudentNumber = "+n+"' \n")[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:128:17: not found: value n[0m
+[0m[[0m[31merror[0m] [0m[0m                n-=1[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:131:21: not found: value mistake[0m
+[0m[[0m[31merror[0m] [0m[0m                if (mistake.contains("truncate")==true)[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:132:32: not found: value driver[0m
+[0m[[0m[31merror[0m] [0m[0m               { Class.forName(driver)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:133:15: not found: value connection[0m
+[0m[[0m[31merror[0m] [0m[0m              connection = DriverManager.getConnection(url, username, password)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:134:34: not found: value connection[0m
+[0m[[0m[31merror[0m] [0m[0m                val statement5 = connection.createStatement()[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:136:18: not found: value log[0m
+[0m[[0m[31merror[0m] [0m[0m                 log.write(Calendar.getInstance().getTimeInMillis + " - Excecuting 'TRUNCATE Gradesheet' \n")[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:138:32: not found: value arrBuff[0m
+[0m[[0m[31merror[0m] [0m[0m                for (i <- 0 to arrBuff.length-1)[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:139:20: not found: value arrBuff[0m
+[0m[[0m[31merror[0m] [0m[0m                  {arrBuff(i)=0}[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:141:18: not found: value n[0m
+[0m[[0m[31merror[0m] [0m[0m                 n=0[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m26 errors found[0m

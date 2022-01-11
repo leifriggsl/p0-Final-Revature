@@ -174,3 +174,951 @@ INFO: Unsupported notification method: $/setTrace
 [0m2022.01.09 08:41:21 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
 '[0m
 [0m2022.01.09 08:41:20 ERROR code navigation does not work for the file 'C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala' because the build target new-project-0 is being compiled. Wait until compilation is finished and try again.[0m
+[0m2022.01.09 08:49:34 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 08:50:04 INFO  Deduplicating compilation of new-project-0 from bsp client 'Metals 0.10.9' (since 30m 40.056s)[0m
+[0m2022.01.09 08:50:04 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 08:50:56 ERROR code navigation does not work for the file 'C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala' because the SemanticDB file 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\META-INF\semanticdb\src\main\scala\pj0.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2022.01.09 08:50:56 ERROR code navigation does not work for the file 'C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala' because the SemanticDB file 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\META-INF\semanticdb\src\main\scala\pj0.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2022.01.09 08:50:56 ERROR code navigation does not work for the file 'C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala' because the SemanticDB file 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\META-INF\semanticdb\src\main\scala\pj0.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2022.01.09 08:51:13 ERROR code navigation does not work for the file 'C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala' because the SemanticDB file 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\META-INF\semanticdb\src\main\scala\pj0.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2022.01.09 08:51:21 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 08:52:56 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 09:26:43 INFO  Deduplicating compilation of new-project-0 from bsp client 'Metals 0.10.9' (since 1h 7m 18.685s)[0m
+[0m2022.01.09 09:26:43 ERROR Unexpected error when compiling new-project-0: 'C:\Users\leifr\Desktop\new project 0\.bloop\new-project-0\bloop-bsp-clients-classes\classes-Metals-dNsEUokLR8qqBMKrfSpz0Q==\pj0.class: The process cannot access the file because it is being used by another process.
+'[0m
+[0m2022.01.09 09:26:45 INFO  shutting down Metals[0m
+[0m2022.01.09 09:26:45 INFO  Shut down connection with build server.[0m
+[0m2022.01.09 09:26:45 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+Unexpected exception when forwarding server stdin ---> client stdout
+No more data in the server stdin, exiting...
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:385)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:156)
+No more data in the client stdin, exiting...
+[0m2022.01.09 09:26:45 ERROR Unexpected error initializing server
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:209)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+[0m
+[0m2022.01.10 08:57:47 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\leifr\Desktop\new project 0' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.10 08:57:47 INFO  time: initialize in 0.33s[0m
+[0m2022.01.10 08:57:47 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.10 08:57:47 INFO  skipping build import with status 'Requested'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 20222'...
+Waiting for the bsp connection to come up...
+Jan 10, 2022 8:57:49 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 10, 2022 8:57:49 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2022.01.10 08:57:51 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+Waiting for the bsp connection to come up...
+[0m2022.01.10 08:57:53 INFO  time: code lens generation in 5.39s[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.11...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\leifr\Desktop\new project 0\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\leifr\Desktop\new project 0\.bloop\new-project-0.json'
+[0m[32m[D][0m Loading project from 'c:\Users\leifr\Desktop\new project 0\.bloop\new-project-0-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.14.
+[0m[32m[D][0m   => C:\Users\leifr\.sbt\boot\scala-2.12.14\lib\jansi.jar
+[0m[32m[D][0m   => C:\Users\leifr\.sbt\boot\scala-2.12.14\lib\jline.jar
+[0m[32m[D][0m   => C:\Users\leifr\.sbt\boot\scala-2.12.14\lib\scala-compiler.jar
+[0m[32m[D][0m   => C:\Users\leifr\.sbt\boot\scala-2.12.14\lib\scala-library.jar
+[0m[32m[D][0m   => C:\Users\leifr\.sbt\boot\scala-2.12.14\lib\scala-reflect.jar
+[0m[32m[D][0m   => C:\Users\leifr\.sbt\boot\scala-2.12.14\lib\scala-xml_2.12.jar
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'new-project-0', 'new-project-0-test'
+[0m[32m[D][0m Missing analysis file for project 'new-project-0-test'
+[0m[32m[D][0m Loading previous analysis for 'new-project-0' from 'C:\Users\leifr\Desktop\new project 0\target\streams\compile\bloopAnalysisOut\_global\streams\inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:20222...
+The server is listening for incoming connections at tcp://127.0.0.1:20222...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.10 08:57:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.10 08:57:53 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 32537'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:32537...
+The server is listening for incoming connections at tcp://127.0.0.1:32537...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+Jan 10, 2022 8:57:54 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2022.01.10 08:57:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.10 08:57:55 INFO  time: Connected to build server in 6.97s[0m
+[0m2022.01.10 08:57:55 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.10 08:57:55 INFO  time: Imported build in 0.11s[0m
+[0m2022.01.10 08:57:57 INFO  time: indexed workspace in 1.9s[0m
+[0m2022.01.10 08:57:57 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2022.01.10 09:04:00 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 09:04:03 INFO  time: compiled new-project-0 in 3.39s[0m
+[0m2022.01.10 09:13:01 INFO  shutting down Metals[0m
+[0m2022.01.10 09:13:01 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2022.01.10 09:13:01 INFO  Shut down connection with build server.[0m
+Unexpected exception when forwarding server stdin ---> client stdout
+java.net.SocketException: Socket closed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.nio.channels.Channels$ReadableByteChannelImpl.read(Channels.java:385)
+	at bloop.launcher.bsp.BspBridge.copyContents(BspBridge.scala:289)
+	at bloop.launcher.bsp.BspBridge.forwardStreamContents(BspBridge.scala:275)
+	at bloop.launcher.bsp.BspBridge.$anonfun$wireBspConnectionStreams$2(BspBridge.scala:228)
+	at bloop.bloopgun.core.Shell$$anon$2.run(Shell.scala:156)
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2022.01.10 10:59:26 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\leifr\Desktop\new project 0' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.10 10:59:26 INFO  time: initialize in 0.38s[0m
+[0m2022.01.10 10:59:26 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.10 10:59:26 INFO  skipping build import with status 'Requested'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 28951'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:28951...
+The server is listening for incoming connections at tcp://127.0.0.1:28951...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.10 10:59:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.10 10:59:28 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34027'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34027...
+The server is listening for incoming connections at tcp://127.0.0.1:34027...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.10 10:59:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.10 10:59:28 INFO  time: Connected to build server in 1.61s[0m
+[0m2022.01.10 10:59:28 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.10 10:59:30 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.10 10:59:30 INFO  time: code lens generation in 3.32s[0m
+[0m2022.01.10 10:59:33 INFO  time: indexed workspace in 1.88s[0m
+[0m2022.01.10 10:59:33 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jan 10, 2022 11:07:09 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+[0m2022.01.10 11:18:13 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:18:13 INFO  time: compiled new-project-0 in 0.47s[0m
+[0m2022.01.10 11:23:27 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:23:28 INFO  time: compiled new-project-0 in 1.18s[0m
+[0m2022.01.10 11:42:24 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:42:24 INFO  time: compiled new-project-0 in 0.96s[0m
+Jan 10, 2022 11:47:38 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 965
+[0m2022.01.10 11:49:08 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:49:08 INFO  time: compiled new-project-0 in 0.14s[0m
+[0m2022.01.10 11:49:46 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:49:46 INFO  time: compiled new-project-0 in 0.11s[0m
+[0m2022.01.10 11:50:08 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:50:08 INFO  time: compiled new-project-0 in 0.21s[0m
+[0m2022.01.10 11:50:14 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:50:14 INFO  time: compiled new-project-0 in 0.19s[0m
+[0m2022.01.10 11:50:29 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:50:29 INFO  time: compiled new-project-0 in 0.1s[0m
+[0m2022.01.10 11:50:55 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:50:55 INFO  time: compiled new-project-0 in 0.1s[0m
+[0m2022.01.10 11:51:22 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:51:22 INFO  time: compiled new-project-0 in 0.11s[0m
+[0m2022.01.10 11:51:34 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:51:34 INFO  time: compiled new-project-0 in 0.17s[0m
+Jan 10, 2022 11:51:37 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1250
+[0m2022.01.10 11:52:20 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:52:20 INFO  time: compiled new-project-0 in 0.21s[0m
+[0m2022.01.10 11:52:47 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:52:47 INFO  time: compiled new-project-0 in 0.19s[0m
+[0m2022.01.10 11:53:06 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:53:06 INFO  time: compiled new-project-0 in 0.81s[0m
+[0m2022.01.10 11:59:38 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 11:59:38 INFO  time: compiled new-project-0 in 0.79s[0m
+[0m2022.01.10 12:01:44 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:01:44 INFO  time: compiled new-project-0 in 0.79s[0m
+[0m2022.01.10 12:03:21 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:03:21 INFO  time: compiled new-project-0 in 0.98s[0m
+[0m2022.01.10 12:05:16 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:05:16 INFO  time: compiled new-project-0 in 0.73s[0m
+[0m2022.01.10 12:06:22 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:06:22 INFO  time: compiled new-project-0 in 0.11s[0m
+Jan 10, 2022 12:06:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 12 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1554)
+	... 15 more
+
+Jan 10, 2022 12:06:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 9 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1554)
+	... 15 more
+
+Jan 10, 2022 12:06:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.IllegalArgumentException: 108 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.PatternMatchRefactor.contribute(PatternMatchRefactor.scala:96)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:62)
+	at scala.meta.internal.metals.CodeActionProvider$$anonfun$1.applyOrElse(CodeActionProvider.scala:61)
+	at scala.collection.immutable.List.collect(List.scala:323)
+	at scala.meta.internal.metals.CodeActionProvider.codeActions(CodeActionProvider.scala:61)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$codeAction$1(MetalsLanguageServer.scala:1555)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLanguageServer.codeAction(MetalsLanguageServer.scala:1554)
+	... 15 more
+
+Jan 10, 2022 12:06:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 108 is not a valid line number, allowed [0..0]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 108 is not a valid line number, allowed [0..0]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 108 is not a valid line number, allowed [0..0]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:133)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$4(Trees.scala:77)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:76)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:69)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2022.01.10 12:07:12 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:7:1: stale bloop error: Missing closing brace `}' assumed here
+val log = new PrintWriter(new File("query.log"))
+^[0m
+[0m2022.01.10 12:07:12 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:10:3: stale bloop error: expected class or object definition
+  def main(args: Array[String]):Unit = {
+  ^[0m
+[0m2022.01.10 12:07:12 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:7:1: stale bloop error: Missing closing brace `}' assumed here
+val log = new PrintWriter(new File("query.log"))
+^[0m
+[0m2022.01.10 12:07:12 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:10:3: stale bloop error: expected class or object definition
+  def main(args: Array[String]):Unit = {
+  ^[0m
+[0m2022.01.10 12:07:16 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:07:16 INFO  time: compiled new-project-0 in 0.87s[0m
+[0m2022.01.10 12:09:50 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:09:50 INFO  time: compiled new-project-0 in 0.18s[0m
+[0m2022.01.10 12:10:24 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:10:24 INFO  time: compiled new-project-0 in 0.17s[0m
+[0m2022.01.10 12:10:46 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:10:47 INFO  time: compiled new-project-0 in 1.05s[0m
+[0m2022.01.10 12:12:56 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:12:56 INFO  time: compiled new-project-0 in 0.79s[0m
+[0m2022.01.10 12:15:36 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:15:36 INFO  time: compiled new-project-0 in 0.73s[0m
+[0m2022.01.10 12:33:32 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:33:32 INFO  time: compiled new-project-0 in 0.2s[0m
+[0m2022.01.10 12:33:52 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:33:52 INFO  time: compiled new-project-0 in 0.16s[0m
+[0m2022.01.10 12:34:29 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:34:29 INFO  time: compiled new-project-0 in 0.15s[0m
+[0m2022.01.10 12:35:12 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:14:22: stale bloop error: not found: type Arraybuffer
+    var arrBuff= new Arraybuffer[Int]()
+                     ^^^^^^^^^^^[0m
+[0m2022.01.10 12:35:12 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:14:22: stale bloop error: not found: type Arraybuffer
+    var arrBuff= new Arraybuffer[Int]()
+                     ^^^^^^^^^^^[0m
+[0m2022.01.10 12:35:17 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:14:22: stale bloop error: not found: type Arraybuffer
+    var arrBuff= new Arraybuffer[Int]()
+                     ^^^^^^^^^^^[0m
+[0m2022.01.10 12:35:17 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:14:22: stale bloop error: not found: type Arraybuffer
+    var arrBuff= new Arraybuffer[Int]()
+                     ^^^^^^^^^^^[0m
+[0m2022.01.10 12:36:22 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:36:22 INFO  time: compiled new-project-0 in 0.9s[0m
+[0m2022.01.10 12:38:09 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:38:09 INFO  time: compiled new-project-0 in 0.87s[0m
+[0m2022.01.10 12:46:36 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:46:36 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:46:36 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:46:36 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:46:36 INFO  time: compiled new-project-0 in 0.14s[0m
+[0m2022.01.10 12:53:18 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:53:18 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:53:18 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:53:18 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:54:36 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:54:36 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:54:36 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:54:36 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:54:39 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:54:39 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:54:39 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:54:39 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:54:39 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:54:39 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:54:42 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:54:42 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:55:40 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:55:40 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:55:40 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:55:40 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:55:50 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:55:50 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:55:50 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:55:50 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:00 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:00 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:00 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:00 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:18 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:18 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:18 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:18 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:20 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:20 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:20 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:20 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:23 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:23 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:23 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:23 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:26 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:26 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:26 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:26 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:33 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:34 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:45 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:45 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:45 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:45 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:45 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:45 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:45 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:45 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:46 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:46 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:46 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:46 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:46 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:46 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:46 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:46 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:46 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:46 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:47 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:47 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:49 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:49 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:49 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:49 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:56 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:56 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:56:56 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:56:56 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:01 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:02 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:04 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:04 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:04 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:04 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:04 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:04 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:04 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:04 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:12 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:12 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:12 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:12 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:14 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:14 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:14 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:14 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:19 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:19 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:19 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:19 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:25 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:25 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:25 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:25 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:25 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:25 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:25 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:25 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:31 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:210: stale bloop error: unclosed string literal
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                 ^[0m
+[0m2022.01.10 12:57:31 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:64:209: stale bloop error: ')' expected but ';' found.
+             log.write(Calenter.getInstance().getTimeInMillies + " -  Executing "INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+";")
+                                                                                                                                                                                                                ^[0m
+[0m2022.01.10 12:57:31 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:57:31 INFO  time: compiled new-project-0 in 0.11s[0m
+[0m2022.01.10 12:57:50 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:57:50 INFO  time: compiled new-project-0 in 0.15s[0m
+[0m2022.01.10 12:58:09 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:58:09 INFO  time: compiled new-project-0 in 0.15s[0m
+[0m2022.01.10 12:58:21 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:58:21 INFO  time: compiled new-project-0 in 0.19s[0m
+[0m2022.01.10 12:58:47 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 12:58:47 INFO  time: compiled new-project-0 in 0.74s[0m
+[0m2022.01.10 13:05:22 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:05:22 INFO  time: compiled new-project-0 in 0.14s[0m
+[0m2022.01.10 13:05:54 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:05:54 INFO  time: compiled new-project-0 in 0.13s[0m
+[0m2022.01.10 13:06:33 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:06:33 INFO  time: compiled new-project-0 in 0.77s[0m
+[0m2022.01.10 13:06:51 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:06:52 INFO  time: compiled new-project-0 in 1.06s[0m
+[0m2022.01.10 13:08:57 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:08:57 INFO  time: compiled new-project-0 in 0.72s[0m
+[0m2022.01.10 13:15:16 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:15:16 INFO  time: compiled new-project-0 in 0.15s[0m
+[0m2022.01.10 13:15:25 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:15:25 INFO  time: compiled new-project-0 in 0.13s[0m
+[0m2022.01.10 13:16:41 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:16:41 INFO  time: compiled new-project-0 in 0.13s[0m
+[0m2022.01.10 13:19:52 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:19:52 INFO  time: compiled new-project-0 in 0.15s[0m
+[0m2022.01.10 13:21:26 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:21:26 INFO  time: compiled new-project-0 in 0.14s[0m
+[0m2022.01.10 13:22:47 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:22:47 INFO  time: compiled new-project-0 in 0.15s[0m
+[0m2022.01.10 13:23:35 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:23:35 INFO  time: compiled new-project-0 in 0.13s[0m
+[0m2022.01.10 13:23:40 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:23:40 INFO  time: compiled new-project-0 in 0.13s[0m
+[0m2022.01.10 13:23:51 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:23:51 INFO  time: compiled new-project-0 in 0.14s[0m
+[0m2022.01.10 13:24:14 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:24:14 INFO  time: compiled new-project-0 in 0.14s[0m
+[0m2022.01.10 13:24:18 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:24:18 INFO  time: compiled new-project-0 in 0.74s[0m
+[0m2022.01.10 13:26:29 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:26:29 INFO  time: compiled new-project-0 in 0.71s[0m
+[0m2022.01.10 13:28:17 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:28:17 INFO  time: compiled new-project-0 in 0.72s[0m
+[0m2022.01.10 13:30:34 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:30:34 INFO  time: compiled new-project-0 in 0.14s[0m
+[0m2022.01.10 13:31:33 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:31:33 INFO  time: compiled new-project-0 in 0.13s[0m
+[0m2022.01.10 13:31:47 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:31:47 INFO  time: compiled new-project-0 in 0.74s[0m
+[0m2022.01.10 13:33:10 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:33:10 INFO  time: compiled new-project-0 in 0.81s[0m
+[0m2022.01.10 13:33:16 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:33:16 INFO  time: compiled new-project-0 in 0.81s[0m
+[0m2022.01.10 13:33:43 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:33:43 INFO  time: compiled new-project-0 in 0.81s[0m
+[0m2022.01.10 13:38:01 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:38:01 INFO  time: compiled new-project-0 in 0.74s[0m
+[0m2022.01.10 13:41:18 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:41:18 INFO  time: compiled new-project-0 in 0.72s[0m
+[0m2022.01.10 13:55:14 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:55:14 INFO  time: compiled new-project-0 in 0.75s[0m
+[0m2022.01.10 13:56:55 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.10 13:56:55 INFO  time: compiled new-project-0 in 0.76s[0m
+Jan 11, 2022 3:30:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5048
+Jan 11, 2022 3:41:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5584
+[0m2022.01.11 03:42:28 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 03:42:28 INFO  time: compiled new-project-0 in 0.78s[0m
+[0m2022.01.11 03:43:57 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 03:43:57 INFO  time: compiled new-project-0 in 0.78s[0m
+[0m2022.01.11 03:46:37 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 03:46:39 INFO  time: compiled new-project-0 in 1.34s[0m
+[0m2022.01.11 03:56:30 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 03:56:30 INFO  time: compiled new-project-0 in 0.78s[0m
+[0m2022.01.11 04:09:54 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 04:09:54 INFO  time: compiled new-project-0 in 0.78s[0m
+[0m2022.01.11 04:11:19 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 04:11:19 INFO  time: compiled new-project-0 in 0.76s[0m
