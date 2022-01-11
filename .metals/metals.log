@@ -1122,3 +1122,286 @@ WARNING: Unmatched cancel notification for request id 5584
 [0m2022.01.11 04:09:54 INFO  time: compiled new-project-0 in 0.78s[0m
 [0m2022.01.11 04:11:19 INFO  compiling new-project-0 (1 scala source)[0m
 [0m2022.01.11 04:11:19 INFO  time: compiled new-project-0 in 0.76s[0m
+Jan 11, 2022 4:17:45 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jan 11, 2022 4:17:45 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:140)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:158)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:960)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:808)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+[0m2022.01.11 04:22:33 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 04:22:33 INFO  time: compiled new-project-0 in 0.16s[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:97:32: stale bloop error: not found: value connection
+              val statement2 = connection.createStatement()
+                               ^^^^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:100:14: stale bloop error: not found: value log
+             log.write(Calendar.getInstance().getTimeInMillis  + " -  Executing 'INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+");' \n")
+             ^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:100:158: stale bloop error: not found: value n
+             log.write(Calendar.getInstance().getTimeInMillis  + " -  Executing 'INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+");' \n")
+                                                                                                                                                             ^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:100:165: stale bloop error: not found: value inputName
+             log.write(Calendar.getInstance().getTimeInMillis  + " -  Executing 'INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+");' \n")
+                                                                                                                                                                    ^^^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:100:180: stale bloop error: not found: value inputPeriod
+             log.write(Calendar.getInstance().getTimeInMillis  + " -  Executing 'INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+");' \n")
+                                                                                                                                                                                   ^^^^^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:100:197: stale bloop error: not found: value inputScore
+             log.write(Calendar.getInstance().getTimeInMillis  + " -  Executing 'INSERT INTO Gradesheet(StudentNumber, StudentName, Period, Grade) VALUES ("+n+", "+inputName+", "+inputPeriod+", "+inputScore+");' \n")
+                                                                                                                                                                                                    ^^^^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:105:19: stale bloop error: not found: value seeSpreadSheet
+              if (seeSpreadSheet.contains('y')==true) {
+                  ^^^^^^^^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:106:31: stale bloop error: not found: value driver
+                Class.forName(driver)
+                              ^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:107:15: stale bloop error: not found: value connection
+              connection = DriverManager.getConnection(url, username, password)
+              ^^^^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:108:33: stale bloop error: not found: value connection
+                val statement = connection.createStatement()
+                                ^^^^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:110:17: stale bloop error: not found: value log
+                log.write(Calendar.getInstance().getTimeInMillis + " - Excecuting 'SELECT * FROM Gradesheet;' \n")
+                ^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:122:17: stale bloop error: not found: value mistake
+            if (mistake.contains('b')==true)
+                ^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:123:30: stale bloop error: not found: value driver
+              {Class.forName(driver)
+                             ^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:124:15: stale bloop error: not found: value connection
+              connection = DriverManager.getConnection(url, username, password)
+              ^^^^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:125:34: stale bloop error: not found: value connection
+                val statement3 = connection.createStatement()
+                                 ^^^^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:127:18: stale bloop error: not found: value log
+                 log.write(Calendar.getInstance().getTimeInMillis + " - Excecuting 'DELETE FROM Gradesheet WHERE StudentNumber = "+n+"' \n")
+                 ^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:127:132: stale bloop error: not found: value n
+                 log.write(Calendar.getInstance().getTimeInMillis + " - Excecuting 'DELETE FROM Gradesheet WHERE StudentNumber = "+n+"' \n")
+                                                                                                                                   ^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:128:17: stale bloop error: not found: value n
+                n-=1
+                ^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:131:21: stale bloop error: not found: value mistake
+                if (mistake.contains("truncate")==true)
+                    ^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:132:32: stale bloop error: not found: value driver
+               { Class.forName(driver)
+                               ^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:133:15: stale bloop error: not found: value connection
+              connection = DriverManager.getConnection(url, username, password)
+              ^^^^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:134:34: stale bloop error: not found: value connection
+                val statement5 = connection.createStatement()
+                                 ^^^^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:136:18: stale bloop error: not found: value log
+                 log.write(Calendar.getInstance().getTimeInMillis + " - Excecuting 'TRUNCATE Gradesheet' \n")
+                 ^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:138:32: stale bloop error: not found: value arrBuff
+                for (i <- 0 to arrBuff.length-1)
+                               ^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:139:20: stale bloop error: not found: value arrBuff
+                  {arrBuff(i)=0}
+                   ^^^^^^^[0m
+[0m2022.01.11 04:23:29 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:141:18: stale bloop error: not found: value n
+                 n=0
+                 ^[0m
+[0m2022.01.11 04:23:38 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 04:23:38 INFO  time: compiled new-project-0 in 0.88s[0m
+[0m2022.01.11 04:24:23 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 04:24:23 INFO  time: compiled new-project-0 in 0.77s[0m
+Jan 11, 2022 4:27:03 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 11, 2022 4:36:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+[0m2022.01.11 04:36:00 INFO  shutting down Metals[0m
+[0m2022.01.11 04:36:00 INFO  Shut down connection with build server.[0m
+[0m2022.01.11 04:36:00 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.11 04:36:07 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\leifr\Desktop\new project 0' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.11 04:36:07 INFO  time: initialize in 0.33s[0m
+[0m2022.01.11 04:36:07 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.11 04:36:07 INFO  skipping build import with status 'Requested'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 16611'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:16611...
+The server is listening for incoming connections at tcp://127.0.0.1:16611...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.11 04:36:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.11 04:36:08 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 12699'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:12699...
+The server is listening for incoming connections at tcp://127.0.0.1:12699...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.11 04:36:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.11 04:36:09 INFO  time: Connected to build server in 1.31s[0m
+[0m2022.01.11 04:36:09 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.11 04:36:10 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.11 04:36:10 INFO  time: code lens generation in 3.06s[0m
+[0m2022.01.11 04:36:13 INFO  time: indexed workspace in 1.82s[0m
+[0m2022.01.11 04:36:14 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+Jan 11, 2022 5:56:36 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 324
+Jan 11, 2022 5:56:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 356
+Jan 11, 2022 6:08:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1026
+Jan 11, 2022 6:09:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1075
+Jan 11, 2022 6:10:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1166
+Jan 11, 2022 6:12:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1473
+Jan 11, 2022 6:19:23 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2049
+Jan 11, 2022 6:46:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3061
+Jan 11, 2022 6:51:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3743
+Jan 11, 2022 6:52:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3828
+[0m2022.01.11 07:18:30 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 07:18:31 INFO  time: compiled new-project-0 in 1.15s[0m
+[0m2022.01.11 07:24:45 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 07:24:45 INFO  time: compiled new-project-0 in 0.16s[0m
+[0m2022.01.11 07:25:05 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:89:9: stale bloop error: ')' expected but 'var' found.
+        var mistake= scanner.nextLine()
+        ^[0m
+[0m2022.01.11 07:25:05 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:89:9: stale bloop error: ')' expected but 'var' found.
+        var mistake= scanner.nextLine()
+        ^[0m
+[0m2022.01.11 07:25:15 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:89:9: stale bloop error: ')' expected but 'var' found.
+        var mistake= scanner.nextLine()
+        ^[0m
+[0m2022.01.11 07:25:15 INFO  C:\Users\leifr\Desktop\new project 0\src\main\scala\pj0.scala:89:9: stale bloop error: ')' expected but 'var' found.
+        var mistake= scanner.nextLine()
+        ^[0m
+[0m2022.01.11 07:25:20 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 07:25:20 INFO  time: compiled new-project-0 in 0.2s[0m
+[0m2022.01.11 07:26:02 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 07:26:02 INFO  time: compiled new-project-0 in 0.8s[0m
+[0m2022.01.11 10:01:03 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 10:01:03 INFO  time: compiled new-project-0 in 0.26s[0m
+[0m2022.01.11 10:01:08 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 10:01:08 INFO  time: compiled new-project-0 in 0.87s[0m
+[0m2022.01.11 10:02:21 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 10:02:21 INFO  time: compiled new-project-0 in 0.8s[0m
+Jan 11, 2022 10:05:20 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+[0m2022.01.11 10:05:35 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 10:05:35 INFO  time: compiled new-project-0 in 0.81s[0m
+Jan 11, 2022 10:05:48 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+[0m2022.01.11 10:51:57 INFO  shutting down Metals[0m
+[0m2022.01.11 10:51:57 INFO  Shut down connection with build server.No more data in the server stdin, exiting...[0m
+
+No more data in the server stdin, exiting...
+[0m2022.01.11 10:51:57 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.11 10:52:10 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\leifr\Desktop\new project 0' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.11 10:52:11 INFO  time: initialize in 0.33s[0m
+[0m2022.01.11 10:52:10 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.11 10:52:11 INFO  skipping build import with status 'Requested'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 23113'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:23113...
+The server is listening for incoming connections at tcp://127.0.0.1:23113...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.11 10:52:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.11 10:52:12 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 38316'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:38316...
+The server is listening for incoming connections at tcp://127.0.0.1:38316...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.11 10:52:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.11 10:52:12 INFO  time: Connected to build server in 1.24s[0m
+[0m2022.01.11 10:52:12 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.11 10:52:14 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.11 10:52:15 INFO  time: code lens generation in 2.9s[0m
+[0m2022.01.11 10:52:17 INFO  time: indexed workspace in 1.83s[0m
+[0m2022.01.11 10:52:17 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2022.01.11 10:57:21 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 10:57:21 INFO  time: compiled new-project-0 in 0.17s[0m
+[0m2022.01.11 10:58:32 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 10:58:32 INFO  time: compiled new-project-0 in 0.79s[0m
+[0m2022.01.11 11:04:47 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 11:04:47 INFO  time: compiled new-project-0 in 0.83s[0m
+Jan 11, 2022 11:04:58 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+[0m2022.01.11 11:15:02 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 11:15:02 INFO  time: compiled new-project-0 in 0.81s[0m
+[0m2022.01.11 11:15:06 INFO  shutting down Metals[0m
+[0m2022.01.11 11:15:06 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2022.01.11 11:15:06 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2022.01.11 11:15:17 INFO  Started: Metals version 0.10.9 in workspace 'C:\Users\leifr\Desktop\new project 0' for client Visual Studio Code 1.63.2.[0m
+[0m2022.01.11 11:15:18 INFO  time: initialize in 0.38s[0m
+[0m2022.01.11 11:15:17 INFO  Attempting to connect to the build server...[0m
+[0m2022.01.11 11:15:18 INFO  skipping build import with status 'Requested'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 25865'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:25865...
+The server is listening for incoming connections at tcp://127.0.0.1:25865...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.11 11:15:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.11 11:15:19 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34722'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34722...
+The server is listening for incoming connections at tcp://127.0.0.1:34722...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2022.01.11 11:15:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\leifr\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2022.01.11 11:15:19 INFO  time: Connected to build server in 1.21s[0m
+[0m2022.01.11 11:15:19 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2022.01.11 11:15:20 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.11 11:15:20 INFO  time: code lens generation in 2.86s[0m
+[0m2022.01.11 11:15:22 INFO  no build target: using presentation compiler with only scala-library: 3.1.0[0m
+[0m2022.01.11 11:15:23 INFO  time: code lens generation in 4.12s[0m
+[0m2022.01.11 11:15:25 INFO  time: indexed workspace in 3.98s[0m
+[0m2022.01.11 11:15:26 INFO  no build target: using presentation compiler with only scala-library: 2.12.14[0m
+[0m2022.01.11 11:16:49 INFO  compiling new-project-0 (1 scala source)[0m
+[0m2022.01.11 11:16:49 INFO  time: compiled new-project-0 in 0.76s[0m
+Jan 11, 2022 12:31:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 11, 2022 1:58:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
